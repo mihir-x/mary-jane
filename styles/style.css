@@ -49,15 +49,88 @@ nav a {
 /* header related styles */
 .header {
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.header_img {
+    position: absolute;
+    margin-top: 38px;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner_content {
+    max-width: width: 585px;
 }
 
 .profile_picture {
     width: 584px;
     height: 676px;
+}
+
+.banner_greetings {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner_title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner_para {
+    margin-top: 20;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+/* about section styles */
+.about {
+    /* padding: 131px 179px; */
+    /* margin: 130px 230px; */
+    padding: 130px;
+    text-align: center;
+    background: #FFF8F3;
+}
+
+.about>h1 {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about>p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_inf{
+    text-align: center;
 }
