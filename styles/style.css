@@ -202,3 +202,25 @@ main {
     line-height: 28px;
     width: 500px;
 }
+/* Footer styles */
+footer{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 210px;
+}
+.footer_row{
+    width: 50%;
+}
+.footer_row a{
+    margin-right: 20px;
+}
+.contact_form input[type="text"], input[type="email"], textarea{
+    display: block;
+    padding: 18px 35px;
+    background: #FFF;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+    width: 100%;
+}
